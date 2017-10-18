@@ -11,6 +11,11 @@ function isSubsequence(s, t) {
     return matchedLength === s.length;
 }
 
+while(true)
+{
+    console.log('Forever loop')  
+}
+
 console.log(isSubsequence('abc', 'abcde') === true);
 console.log(isSubsequence('abd', 'abcde') === true);
 console.log(isSubsequence('abf', 'abcde') === false);
