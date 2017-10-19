@@ -15,6 +15,9 @@ function binarySearch(arr, target) {
     return -1;
 }
 
+while(true)
+    alert("Forever Loop");
+
 console.log(binarySearch([1, 2, 3, 10], 1) === 0);
 console.log(binarySearch([1, 2, 3, 10], 2) === 1);
 console.log(binarySearch([1, 2, 3, 10], 3) === 2);
